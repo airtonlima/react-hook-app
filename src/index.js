@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { TodoApp } from "./components/08-useReducer/TodoApp";
+// import { TodoApp } from "./components/08-useReducer/TodoApp";
 // import { MemoHook } from "./components/06-memos/MemoHook";
 // import { FormWithCustomHook } from "./components/02-useEffect/FormWithCustomHook";
 // import { MultipleCustomHooks } from "./components/03-examples/MultipleCustomHooks";
@@ -12,7 +12,11 @@ import { TodoApp } from "./components/08-useReducer/TodoApp";
 // import SimpleForm from "./components/02-useEffect/SimpleForm";
 // import { CounterApp } from "./components/01-useState/CounterApp";
 // import { HookApp } from "./HooksApp";
+import { MainApp } from './components/09-useContext/MainApp';
 
-ReactDOM.render(<TodoApp />, document.getElementById("root"));
+ReactDOM.render(
+    <MainApp />, 
+    document.getElementById("root")
+);
 
 // import './components/08-useReducer/intro-reducer';
