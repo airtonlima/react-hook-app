@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TodoListItem = ({ todo, index, handleDelete, handleToggle }) => {
+export const TodoListItem = ({ todo, index, handleDelete, handleToggle }) => {
     return (
 
         <li key={ todo.id } className="list-group-item">
@@ -19,5 +19,3 @@ const TodoListItem = ({ todo, index, handleDelete, handleToggle }) => {
         </li>
     );
 }
-
-export default TodoListItem;

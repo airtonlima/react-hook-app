@@ -2,8 +2,8 @@ import React, { useEffect, useReducer } from 'react';
 import { todoReducer } from './todoReducer';
 
 import './styles.css';
-import TodoList from './TodoList';
-import TodoAdd from './TodoAdd';
+import { TodoList } from './TodoList';
+import { TodoAdd } from './TodoAdd';
 
 const init = () => {
 
@@ -19,8 +19,6 @@ const init = () => {
 export const TodoApp = () => {
 
     const [ todos, dispatch ] = useReducer(todoReducer, [], init);
-
-  
 
     useEffect(() => {
         

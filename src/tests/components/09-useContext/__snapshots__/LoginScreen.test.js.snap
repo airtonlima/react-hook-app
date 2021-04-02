@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <LoginScreen /> #01 - Debe de mostrarse correctamente 1`] = `
+<div>
+  <h1>
+    LoginScreen
+  </h1>
+  <hr />
+  <input
+    className="form-control"
+    name="usuario"
+    onChange={[Function]}
+    placeholder="Usuário"
+    type="text"
+  />
+  <input
+    className="form-control"
+    name="senha"
+    onChange={[Function]}
+    placeholder="Senha"
+    type="password"
+  />
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Login
+  </button>
+</div>
+`;

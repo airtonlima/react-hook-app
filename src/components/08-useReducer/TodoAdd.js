@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm } from '../../hooks/useForm';
 
-const TodoAdd = ({ handleAddTodo }) => {
+export const TodoAdd = ({ handleAddTodo }) => {
     
 
     const [ { description }, handleInputChange, reset ] = useForm({
@@ -52,5 +52,3 @@ const TodoAdd = ({ handleAddTodo }) => {
         </React.Fragment>
     );
 }
-
-export default TodoAdd;

@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { MultipleCustomHooks } from "./components/03-examples/MultipleCustomHooks";
 // import { TodoApp } from "./components/08-useReducer/TodoApp";
 // import { MemoHook } from "./components/06-memos/MemoHook";
 // import { FormWithCustomHook } from "./components/02-useEffect/FormWithCustomHook";
@@ -15,7 +16,7 @@ import ReactDOM from "react-dom";
 import { MainApp } from './components/09-useContext/MainApp';
 
 ReactDOM.render(
-    <MainApp />, 
+    <MultipleCustomHooks />, 
     document.getElementById("root")
 );
 
